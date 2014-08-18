@@ -5,7 +5,7 @@ $hostname = 'localhost';
 /* Your MySQL hostname. Usualy named as 'localhost', so you're NOT necessary to change this even this script has already online on the internet. */
 
 //$dbname   = 'phpmysimplelogin'; // Your database name.
-$dbname = 'fungroo_db'; // Your database name.
+$dbname = 'xxx_db'; // Your database name.
 $username = 'root';             // Your database username.
 $password = '';
 
