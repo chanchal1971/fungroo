@@ -12,11 +12,11 @@ if (isset($_POST['email'])) {
 
 		include '../sendgrid-php-master/SendGrid_loader.php';
 
-		$sendgrid = new SendGrid('fungroo', 'fungroo@123#');
+		$sendgrid = new SendGrid('database_name', 'passwd');
 
 		
 
-		$mailTo = array('nitin@alitumsolutions.com');
+		$mailTo = array('xxxx@xxx.com');
 		$mail = new SendGrid\Mail();
 		$mail->setTos($mailTo)->
 		setFrom($email)->
